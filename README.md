@@ -31,3 +31,7 @@ Documentation used:
 [jQuery UI Demos](https://jqueryui.com/demos/)
 
 [Day.js Docs](https://day.js.org/docs/en/display/format)
+
+Deployed Application:
+
+https://justmoonflower.github.io/sushi/
