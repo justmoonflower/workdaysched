@@ -17,6 +17,8 @@ $(document).ready(function () {
   localStorage.setItem(time, text);
 })
 
+function timeTracker() {
+  var timeNow = moment().hour();
 
 
 
@@ -29,8 +31,7 @@ $(document).ready(function () {
 
 
 
-
-
+}
 
 
 
@@ -55,4 +56,5 @@ $(document).ready(function () {
     $("#hour-5 .description").val(localStorage.getItem("hour-5"));
 
 
+  timeTracker();
   });
