@@ -17,7 +17,7 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
-![Alt text](image-1.png)
+![Alt text](Assets/images/image-1.png)
 
 
 Documentation used:
