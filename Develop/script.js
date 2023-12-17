@@ -1,13 +1,6 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
-
 var todayDate = moment().format('MMM Do, YYYY');
 $("#currentDay").html(todayDate);
 // Sets the date to current day in real time.
-
-
-
 
 $(document).ready(function () {
  $(".saveBtn").on("click", function () {
@@ -16,24 +9,6 @@ $(document).ready(function () {
   var time = $(this).parent().attr("id");
   localStorage.setItem(time, text);
 })
-
-function timeTracker() {
-  var timeNow = moment().hour();
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
 
     //Local storage- representing each time slot. When text is entered the "save" button stores the data. 
     //When you refresh page, the data is still secured in time slots.
@@ -54,7 +29,4 @@ function timeTracker() {
     $("#hour-4 .description").val(localStorage.getItem("hour-4"));
 
     $("#hour-5 .description").val(localStorage.getItem("hour-5"));
-
-
-  timeTracker();
   });
