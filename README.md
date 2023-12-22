@@ -1,3 +1,8 @@
+
+The challenge asked for a workday schedule for the hours of 9 am to 5 pm. It required that the past, present and future time slots be signified by color. This was done with 
+red for past, solid green for present, and light green for future. Javascript localstorage was used to save entries into the time slots, when refreshing the page, the entries remain.
+Dayjs was used to set the current day to whichever day it is in real time. A button functionality was added to each save button to store in local storage.
+
 ## User Story
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
@@ -17,7 +22,7 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
-![Alt text](Assets/images/image-1.png)
+![Alt text](image.png)
 
 
 Documentation used:
